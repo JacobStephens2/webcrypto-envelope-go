@@ -1,8 +1,13 @@
 # webcrypto-envelope-go
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/JacobStephens2/webcrypto-envelope-go.svg)](https://pkg.go.dev/github.com/JacobStephens2/webcrypto-envelope-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/JacobStephens2/webcrypto-envelope-go)](https://goreportcard.com/report/github.com/JacobStephens2/webcrypto-envelope-go)
+[![CI](https://github.com/JacobStephens2/webcrypto-envelope-go/actions/workflows/ci.yml/badge.svg)](https://github.com/JacobStephens2/webcrypto-envelope-go/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 Tiny, dependency-free AES-256-GCM envelope library for Go - the Go twin of
-[webcrypto-envelope](https://github.com/JacobStephens2/webcrypto-envelope)
-(TypeScript, Web Crypto). The two are **wire-compatible**: an envelope
+[@stephenspage/webcrypto-envelope](https://www.npmjs.com/package/@stephenspage/webcrypto-envelope)
+([source](https://github.com/JacobStephens2/webcrypto-envelope), TypeScript, Web Crypto). The two are **wire-compatible**: an envelope
 produced by either implementation opens in the other, and both test suites
 prove it with fixtures sealed by the opposite side.
 
